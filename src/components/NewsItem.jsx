@@ -9,7 +9,7 @@ function NewsItem(props) {
       <CardContent>
       <Typography variant='h5'>{title}</Typography>
       <Typography variant='body'>{description}</Typography>
-      <Link href={url} sx={{display: 'block'}}>記事を読む（サイトにとぶ）</Link>
+      <Link href={url} sx={{display: 'block'}}>記事を読む（サイトにと）</Link>
       </CardContent>
     </Card>
   )
